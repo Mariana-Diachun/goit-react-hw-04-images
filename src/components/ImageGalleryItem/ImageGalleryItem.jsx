@@ -17,7 +17,7 @@ export const ImageGalleryItem = ({ item }) => {
 
   const onModalKeydown = e => {
     if (e.key === 'Escape') {
-      this.closeModal();
+      closeModal();
     }
   };
 
